@@ -306,5 +306,10 @@
 	</SchemaData></ExtendedData>
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.180932266999946,19.367945383000063,0 -99.187949928999956,19.372638613000049,0 -99.187581938999983,19.37645053600005,0 -99.178902085999937,19.37423409400003,0 -99.180932266999946,19.367945383000063,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
+  <PolygonSymbolizer>
+   <Fill>
+      <CssParameter name="fill">#0000FF</CssParameter>
+   </Fill>
+</PolygonSymbolizer>
 </Folder>
 </Document></kml>
