@@ -1,315 +1,400 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="Poligono_ecoParq_enOperacion" id="Poligono_ecoParq_enOperacion">
-	<SimpleField name="Nombre_pol" type="string"></SimpleField>
-	<SimpleField name="Delegacion" type="string"></SimpleField>
-	<SimpleField name="Cve_mun" type="string"></SimpleField>
-	<SimpleField name="Tot_cajon" type="int"></SimpleField>
-	<SimpleField name="Tot_equipo" type="int"></SimpleField>
-	<SimpleField name="I_Opera" type="string"></SimpleField>
-	<SimpleField name="Lun" type="string"></SimpleField>
-	<SimpleField name="Mar" type="string"></SimpleField>
-	<SimpleField name="Mie" type="string"></SimpleField>
-	<SimpleField name="Jue" type="string"></SimpleField>
-	<SimpleField name="Vie" type="string"></SimpleField>
-	<SimpleField name="Sab" type="string"></SimpleField>
-	<SimpleField name="Dom" type="string"></SimpleField>
-	<SimpleField name="Costo" type="string"></SimpleField>
+<Schema name="poligonoecoparqenoperacion" id="poligonoecoparqenoperacion">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="_end" type="string"></SimpleField>
+	<SimpleField name="altitudemode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="draworder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="nombre_pol" type="string"></SimpleField>
+	<SimpleField name="delegacion" type="string"></SimpleField>
+	<SimpleField name="cve_mun" type="string"></SimpleField>
+	<SimpleField name="tot_cajon" type="int"></SimpleField>
+	<SimpleField name="tot_equipo" type="int"></SimpleField>
+	<SimpleField name="i_opera" type="string"></SimpleField>
+	<SimpleField name="lun" type="string"></SimpleField>
+	<SimpleField name="mar" type="string"></SimpleField>
+	<SimpleField name="mie" type="string"></SimpleField>
+	<SimpleField name="jue" type="string"></SimpleField>
+	<SimpleField name="vie" type="string"></SimpleField>
+	<SimpleField name="sab" type="string"></SimpleField>
+	<SimpleField name="dom" type="string"></SimpleField>
+	<SimpleField name="costo" type="string"></SimpleField>
 	<SimpleField name="sup_km2" type="float"></SimpleField>
 	<SimpleField name="cajon_km2" type="float"></SimpleField>
+	<SimpleField name="cartodb_id" type="int"></SimpleField>
+	<SimpleField name="created_at" type="string"></SimpleField>
+	<SimpleField name="updated_at" type="string"></SimpleField>
 </Schema>
-<Folder><name>Poligono_ecoParq_enOperacion</name>
+<Folder><name>poligonoecoparqenoperacion</name>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Lomas - Virreyes</SimpleData>
-		<SimpleData name="Delegacion">Miguel Hidalgo</SimpleData>
-		<SimpleData name="Cve_mun">09016</SimpleData>
-		<SimpleData name="Tot_cajon">3250</SimpleData>
-		<SimpleData name="Tot_equipo">186</SimpleData>
-		<SimpleData name="I_Opera">2012/06/18</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
-		<SimpleData name="sup_km2">2.36981805481</SimpleData>
-		<SimpleData name="cajon_km2">1371.41330044000</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Anzures</SimpleData>
+		<SimpleData name="delegacion">Miguel Hidalgo</SimpleData>
+		<SimpleData name="cve_mun">09016</SimpleData>
+		<SimpleData name="tot_cajon">1695</SimpleData>
+		<SimpleData name="tot_equipo">113</SimpleData>
+		<SimpleData name="i_opera">2013/03/20</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
+		<SimpleData name="sup_km2">0.7499477034</SimpleData>
+		<SimpleData name="cajon_km2">2260.15759807</SimpleData>
+		<SimpleData name="cartodb_id">2</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.211913187999983,19.433188027000028,0 -99.210071003999985,19.433398133000026,0 -99.208792105999976,19.43135654200006,0 -99.208272617999967,19.431153146000042,0 -99.20416309899997,19.427546131000042,0 -99.20360014299996,19.427359273000036,0 -99.203115448999938,19.427094926000052,0 -99.20342760799997,19.42649566800003,0 -99.203075737999939,19.425153329000068,0 -99.202620034999939,19.423815387000047,0 -99.202551611999979,19.423507800000039,0 -99.203051889999983,19.422394980000036,0 -99.202571054999964,19.422249093000062,0 -99.204043620999983,19.420041549000075,0 -99.205965179999964,19.418782854000028,0 -99.20726859199999,19.419345948000057,0 -99.207925296999974,19.418046252000067,0 -99.208464099999958,19.417313673000024,0 -99.20942290499994,19.416543606000062,0 -99.212395661999949,19.415128049000032,0 -99.212777190999986,19.415195347000065,0 -99.213693905999946,19.416184051000073,0 -99.213162695999983,19.416707541000051,0 -99.213376960999938,19.416987816000074,0 -99.21894326499995,19.415421005000042,0 -99.21839315599999,19.417350182000064,0 -99.217860350999956,19.419071166000037,0 -99.217956177999952,19.42047498200003,0 -99.218277827999941,19.420605593000062,0 -99.218577449999941,19.420758909000028,0 -99.21871519299998,19.420836464000047,0 -99.218981883999959,19.421176683000056,0 -99.218895636999946,19.421808860000056,0 -99.219166968999957,19.422093911000047,0 -99.218468358999985,19.423828640000067,0 -99.217871166999942,19.424602290000053,0 -99.21760853699999,19.424737291000042,0 -99.217342795999969,19.424864510000077,0 -99.217363106999983,19.425000412000031,0 -99.21717806099997,19.426701061000074,0 -99.216753295999979,19.427296326000032,0 -99.216394888999957,19.427514815000052,0 -99.21694344499997,19.428502298000069,0 -99.21713692899999,19.429104077000034,0 -99.216930123999987,19.429608660000042,0 -99.217047295999976,19.430161256000076,0 -99.216248208999957,19.430757495000023,0 -99.215334994999978,19.431507922000037,0 -99.213511964999952,19.432972067000037,0 -99.211913187999983,19.433188027000028,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.183477855999968,19.437347910000028 -99.181191725999952,19.436944892000042 -99.172350146999975,19.432230978000064 -99.178047080999988,19.423894896000036 -99.183477855999968,19.437347910000028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Anzures</SimpleData>
-		<SimpleData name="Delegacion">Miguel Hidalgo</SimpleData>
-		<SimpleData name="Cve_mun">09016</SimpleData>
-		<SimpleData name="Tot_cajon">1695</SimpleData>
-		<SimpleData name="Tot_equipo">113</SimpleData>
-		<SimpleData name="I_Opera">2013/03/20</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
-		<SimpleData name="sup_km2">0.74994770340</SimpleData>
-		<SimpleData name="cajon_km2">2260.15759807000</SimpleData>
-	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.183477855999968,19.437347910000028,0 -99.181191725999952,19.436944892000042,0 -99.172350146999975,19.432230978000064,0 -99.178047080999988,19.423894896000036,0 -99.183477855999968,19.437347910000028,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Polanco</SimpleData>
-		<SimpleData name="Delegacion">Miguel Hidalgo</SimpleData>
-		<SimpleData name="Cve_mun">09016</SimpleData>
-		<SimpleData name="Tot_cajon">6240</SimpleData>
-		<SimpleData name="Tot_equipo">416</SimpleData>
-		<SimpleData name="I_Opera">2012/01/09</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-24:00</SimpleData>
-		<SimpleData name="Jue">00:00-01:00;08:00-24:00</SimpleData>
-		<SimpleData name="Vie">00:00-01:00;08:00-24:00</SimpleData>
-		<SimpleData name="Sab">00:00-01:00;08:00-24:00</SimpleData>
-		<SimpleData name="Dom">00:00-01:00</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Polanco</SimpleData>
+		<SimpleData name="delegacion">Miguel Hidalgo</SimpleData>
+		<SimpleData name="cve_mun">09016</SimpleData>
+		<SimpleData name="tot_cajon">6240</SimpleData>
+		<SimpleData name="tot_equipo">416</SimpleData>
+		<SimpleData name="i_opera">2012/01/09</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-24:00</SimpleData>
+		<SimpleData name="jue">00:00-01:00;08:00-24:00</SimpleData>
+		<SimpleData name="vie">00:00-01:00;08:00-24:00</SimpleData>
+		<SimpleData name="sab">00:00-01:00;08:00-24:00</SimpleData>
+		<SimpleData name="dom">00:00-01:00</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">3.88565821689</SimpleData>
-		<SimpleData name="cajon_km2">1605.90552532000</SimpleData>
+		<SimpleData name="cajon_km2">1605.90552532</SimpleData>
+		<SimpleData name="cartodb_id">3</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.214106863999973,19.438170484000068,0 -99.214051347999941,19.438853130000041,0 -99.183811276999961,19.437445910000065,0 -99.177976619999981,19.423732552000047,0 -99.201238629999978,19.427147939000065,0 -99.202464477999968,19.427899129000025,0 -99.203279155999951,19.427920889000063,0 -99.208080502999962,19.431668686000023,0 -99.208915347999948,19.432905011000059,0 -99.211487174999945,19.43435151400007,0 -99.214106863999973,19.438170484000068,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.214106863999973,19.438170484000068 -99.214051347999927,19.438853130000041 -99.183811276999961,19.437445910000065 -99.177976619999981,19.423732552000047 -99.201238629999963,19.427147939000065 -99.202464477999968,19.427899129000025 -99.203279155999951,19.427920889000063 -99.208080502999962,19.431668686000023 -99.208915347999948,19.432905011000059 -99.211487174999945,19.43435151400007 -99.214106863999973,19.438170484000068</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Roma - Condesa</SimpleData>
-		<SimpleData name="Delegacion">Cuauhtémoc</SimpleData>
-		<SimpleData name="Cve_mun">09015</SimpleData>
-		<SimpleData name="Tot_cajon">5535</SimpleData>
-		<SimpleData name="Tot_equipo">353</SimpleData>
-		<SimpleData name="I_Opera">2013/03/25</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-24:00</SimpleData>
-		<SimpleData name="Vie">00:00-01:00;08:00-24:00</SimpleData>
-		<SimpleData name="Sab">00:00-01:00;08:00-24:00</SimpleData>
-		<SimpleData name="Dom">00:00-01:00</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Lomas - Virreyes</SimpleData>
+		<SimpleData name="delegacion">Miguel Hidalgo</SimpleData>
+		<SimpleData name="cve_mun">09016</SimpleData>
+		<SimpleData name="tot_cajon">3250</SimpleData>
+		<SimpleData name="tot_equipo">186</SimpleData>
+		<SimpleData name="i_opera">2012/06/18</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
+		<SimpleData name="sup_km2">2.36981805481</SimpleData>
+		<SimpleData name="cajon_km2">1371.41330044</SimpleData>
+		<SimpleData name="cartodb_id">1</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.211913187999968,19.433188027000028 -99.210071003999985,19.433398133000022 -99.208792105999976,19.43135654200006 -99.208272617999967,19.431153146000042 -99.20416309899997,19.427546131000042 -99.203600142999946,19.427359273000036 -99.203115448999938,19.427094926000052 -99.203427607999956,19.42649566800003 -99.203075737999939,19.425153329000068 -99.202620034999939,19.423815387000047 -99.202551611999979,19.423507800000039 -99.203051889999983,19.422394980000036 -99.202571054999964,19.422249093000062 -99.204043620999983,19.420041549000075 -99.20596518,19.418782854000028 -99.20726859199999,19.419345948000057 -99.207925296999974,19.418046252000067 -99.208464099999958,19.41731367300002 -99.209422904999926,19.416543606000062 -99.212395661999949,19.415128049000032 -99.212777190999986,19.415195347000065 -99.213693905999946,19.416184051000073 -99.213162695999969,19.416707541000047 -99.213376960999938,19.41698781600007 -99.218943264999936,19.415421005000042 -99.21839315599999,19.417350182000064 -99.217860350999956,19.419071166000037 -99.217956177999937,19.42047498200003 -99.218277827999941,19.420605593000058 -99.218577449999941,19.420758909000028 -99.218715192999966,19.420836464000047 -99.218981883999959,19.421176683000056 -99.218895636999946,19.421808860000056 -99.219166968999943,19.422093911000047 -99.218468358999985,19.423828640000067 -99.217871166999942,19.424602290000053 -99.21760853699999,19.424737291000039 -99.217342795999969,19.424864510000077 -99.217363106999983,19.425000412000031 -99.21717806099997,19.426701061000074 -99.216753295999979,19.427296326000032 -99.216394888999957,19.427514815000052 -99.21694344499997,19.428502298000069 -99.217136928999977,19.42910407700003 -99.216930123999973,19.429608660000042 -99.217047295999976,19.430161256000076 -99.216248208999957,19.430757495000023 -99.215334994999978,19.431507922000037 -99.213511964999952,19.432972067000037 -99.211913187999968,19.433188027000028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Roma - Condesa</SimpleData>
+		<SimpleData name="delegacion">Cuauhtémoc</SimpleData>
+		<SimpleData name="cve_mun">09015</SimpleData>
+		<SimpleData name="tot_cajon">5535</SimpleData>
+		<SimpleData name="tot_equipo">353</SimpleData>
+		<SimpleData name="i_opera">2013/03/25</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-24:00</SimpleData>
+		<SimpleData name="vie">00:00-01:00;08:00-24:00</SimpleData>
+		<SimpleData name="sab">00:00-01:00;08:00-24:00</SimpleData>
+		<SimpleData name="dom">00:00-01:00</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">2.48502918086</SimpleData>
-		<SimpleData name="cajon_km2">2227.33802992000</SimpleData>
+		<SimpleData name="cajon_km2">2227.33802992</SimpleData>
+		<SimpleData name="cartodb_id">4</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.169094466999979,19.403782556000085,0 -99.170558407999977,19.401029367000039,0 -99.171226981750152,19.403639380846272,0 -99.173268705751354,19.404139579480109,0 -99.177110657622848,19.405498809791411,0 -99.179833523088647,19.406629522457433,0 -99.179274389583469,19.406917008163621,0 -99.178517349999936,19.406969404000073,0 -99.176785194999965,19.408245312000084,0 -99.175580731999943,19.409795308000092,0 -99.174049794999974,19.411525694000055,0 -99.172159723999982,19.413361712000061,0 -99.172101182999924,19.413795809000099,0 -99.172208384999976,19.414602405000043,0 -99.172171464999948,19.41522935900003,0 -99.171948587999964,19.415852943000058,0 -99.175002474999985,19.418167922000084,0 -99.17661495399993,19.420465403000037,0 -99.153757696999946,19.425744274000063,0 -99.153938097999969,19.422235976000028,0 -99.154259796999952,19.419375924000079,0 -99.164651193999973,19.417522896000051,0 -99.167030865999948,19.410347463000065,0 -99.168483130999945,19.405993928000068,0 -99.168657587999959,19.405439505000054,0 -99.168876340999972,19.404609847000081,0 -99.169094466999979,19.403782556000085,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.169094466999979,19.403782556000085 -99.170558407999977,19.401029367000039 -99.171226981750152,19.403639380846272 -99.173268705751354,19.404139579480109 -99.177110657622848,19.405498809791411 -99.179833523088647,19.406629522457433 -99.179274389583469,19.406917008163621 -99.178517349999936,19.406969404000073 -99.176785194999965,19.408245312000084 -99.175580731999943,19.409795308000092 -99.174049794999974,19.411525694000055 -99.172159723999982,19.413361712000061 -99.172101182999924,19.413795809000099 -99.172208384999976,19.414602405000043 -99.172171464999948,19.41522935900003 -99.171948587999964,19.415852943000054 -99.175002474999985,19.418167922000084 -99.17661495399993,19.420465403000037 -99.153757696999946,19.425744274000063 -99.153938097999969,19.422235976000028 -99.154259796999938,19.419375924000079 -99.164651193999958,19.417522896000051 -99.167030865999948,19.410347463000065 -99.168483130999945,19.405993928000068 -99.168657587999959,19.405439505000054 -99.168876340999972,19.404609847000081 -99.169094466999979,19.403782556000085</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Florida</SimpleData>
-		<SimpleData name="Delegacion">Álvaro Obregón</SimpleData>
-		<SimpleData name="Cve_mun">09010</SimpleData>
-		<SimpleData name="Tot_cajon">902</SimpleData>
-		<SimpleData name="Tot_equipo">81</SimpleData>
-		<SimpleData name="I_Opera">2014/07/21</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Florida</SimpleData>
+		<SimpleData name="delegacion">Álvaro Obregón</SimpleData>
+		<SimpleData name="cve_mun">09010</SimpleData>
+		<SimpleData name="tot_cajon">902</SimpleData>
+		<SimpleData name="tot_equipo">81</SimpleData>
+		<SimpleData name="i_opera">2014/07/21</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.76075282144</SimpleData>
-		<SimpleData name="cajon_km2">1185.66763682000</SimpleData>
+		<SimpleData name="cajon_km2">1185.66763682</SimpleData>
+		<SimpleData name="cartodb_id">5</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.186030465999977,19.351583578000067,0 -99.182574325999937,19.362366766000065,0 -99.181298211999945,19.362721461000074,0 -99.180622755999977,19.362761172000059,0 -99.18003420799991,19.362813270000093,0 -99.179503894999982,19.363103287000037,0 -99.177874297318539,19.364847730561866,0 -99.175509300508367,19.362607716473264,0 -99.175042093489608,19.362195342365535,0 -99.175286349791378,19.361241523727543,0 -99.175820149411479,19.359874601412059,0 -99.177573775984627,19.360048080320869,0 -99.178125153870909,19.357892821842075,0 -99.177196682999977,19.352517762000087,0 -99.177371274999956,19.352284954000044,0 -99.179990456999946,19.351997102000038,0 -99.182769255314028,19.351546685101749,0 -99.184190487739386,19.351632843936482,0 -99.183746909005478,19.351072714011579,0 -99.185905851671365,19.350685126345482,0 -99.186030465999977,19.351583578000067,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.186030465999977,19.351583578000064 -99.182574325999937,19.362366766000065 -99.181298211999945,19.362721461000074 -99.180622755999977,19.362761172000059 -99.180034207999896,19.362813270000093 -99.179503894999982,19.363103287000037 -99.177874297318539,19.364847730561866 -99.175509300508367,19.362607716473264 -99.175042093489608,19.362195342365535 -99.175286349791378,19.361241523727543 -99.175820149411479,19.359874601412059 -99.177573775984612,19.360048080320869 -99.178125153870909,19.357892821842075 -99.177196682999977,19.352517762000087 -99.177371274999956,19.352284954000044 -99.179990456999946,19.351997102000038 -99.182769255314028,19.351546685101749 -99.184190487739386,19.351632843936478 -99.183746909005478,19.351072714011579 -99.18590585167135,19.350685126345482 -99.186030465999977,19.351583578000064</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Noche Buena</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">500</SimpleData>
-		<SimpleData name="Tot_equipo">29</SimpleData>
-		<SimpleData name="I_Opera">2014/08/18</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Noche Buena</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">500</SimpleData>
+		<SimpleData name="tot_equipo">29</SimpleData>
+		<SimpleData name="i_opera">2014/08/18</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.14190312274</SimpleData>
-		<SimpleData name="cajon_km2">3523.53063366000</SimpleData>
+		<SimpleData name="cajon_km2">3523.53063366</SimpleData>
+		<SimpleData name="cartodb_id">6</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.181487599999969,19.380566359000056,0 -99.178877022999984,19.381955806000065,0 -99.176010177999956,19.382891276000066,0 -99.176955971999973,19.380100413000036,0 -99.18200345799994,19.378457702000048,0 -99.181487599999969,19.380566359000056,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.181487599999969,19.380566359000056 -99.178877022999984,19.381955806000065 -99.176010177999942,19.382891276000066 -99.176955971999973,19.380100413000036 -99.18200345799994,19.378457702000048 -99.181487599999969,19.380566359000056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Extremadura Insurgentes</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">315</SimpleData>
-		<SimpleData name="Tot_equipo">17</SimpleData>
-		<SimpleData name="I_Opera">2014/12/08</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Extremadura Insurgentes</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">315</SimpleData>
+		<SimpleData name="tot_equipo">17</SimpleData>
+		<SimpleData name="i_opera">2014/12/08</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.23241893682</SimpleData>
-		<SimpleData name="cajon_km2">1355.31125095000</SimpleData>
+		<SimpleData name="cajon_km2">1355.31125095</SimpleData>
+		<SimpleData name="cartodb_id">7</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.176954740999975,19.380105797000056,0 -99.178896614999985,19.37423349200003,0 -99.181047827999976,19.374807683000029,0 -99.181655660999979,19.374970476000044,0 -99.182852274999959,19.375268036000023,0 -99.182634133999954,19.376199505000045,0 -99.182005518999972,19.378460923000034,0 -99.176954740999975,19.380105797000056,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.176954740999975,19.380105797000056 -99.178896614999985,19.37423349200003 -99.181047827999976,19.374807683000029 -99.181655660999979,19.374970476000044 -99.182852274999945,19.375268036000023 -99.18263413399994,19.376199505000045 -99.182005518999972,19.378460923000034 -99.176954740999975,19.380105797000056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Cd. de los Deportes</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">786</SimpleData>
-		<SimpleData name="Tot_equipo">43</SimpleData>
-		<SimpleData name="I_Opera">2014/08/18</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Cd. de los Deportes</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">786</SimpleData>
+		<SimpleData name="tot_equipo">43</SimpleData>
+		<SimpleData name="i_opera">2014/08/18</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.52020313982</SimpleData>
-		<SimpleData name="cajon_km2">1510.94820434000</SimpleData>
+		<SimpleData name="cajon_km2">1510.94820434</SimpleData>
+		<SimpleData name="cartodb_id">8</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.180838399999956,19.385189709000024,0 -99.174927559999958,19.386165821000109,0 -99.175940653999987,19.383071146000066,0 -99.179073212,19.381859175000063,0 -99.181490562999954,19.380652711000018,0 -99.181511047999948,19.380569004000058,0 -99.1846153655477,19.380907422715232,0 -99.182875570968449,19.38507482904318,0 -99.182171793999942,19.385206061000087,0 -99.180838399999956,19.385189709000024,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.180838399999942,19.385189709000024 -99.174927559999958,19.386165821000109 -99.175940653999987,19.383071146000066 -99.179073212,19.381859175000063 -99.181490562999954,19.380652711000018 -99.181511047999948,19.380569004000058 -99.1846153655477,19.380907422715232 -99.182875570968434,19.38507482904318 -99.182171793999942,19.385206061000087 -99.180838399999942,19.385189709000024</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Crédito Constructor</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">440</SimpleData>
-		<SimpleData name="Tot_equipo">28</SimpleData>
-		<SimpleData name="I_Opera">2014/08/18</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Crédito Constructor</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">440</SimpleData>
+		<SimpleData name="tot_equipo">28</SimpleData>
+		<SimpleData name="i_opera">2014/08/18</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.14924184033</SimpleData>
-		<SimpleData name="cajon_km2">2948.23488523000</SimpleData>
+		<SimpleData name="cajon_km2">2948.23488523</SimpleData>
+		<SimpleData name="cartodb_id">9</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.182553512999959,19.362486378000028,0 -99.180825635999952,19.367734753000036,0 -99.179806046999943,19.367219113000033,0 -99.177791405999983,19.365049874000022,0 -99.179111904999957,19.363881777000074,0 -99.179268301999969,19.363528162000023,0 -99.17950515199999,19.363198817000068,0 -99.180886682999983,19.362896512000077,0 -99.182553512999959,19.362486378000028,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.182553512999959,19.362486378000028 -99.180825635999952,19.367734753000036 -99.179806046999943,19.367219113000033 -99.177791405999969,19.365049874000022 -99.179111904999957,19.363881777000074 -99.179268301999954,19.363528162000023 -99.17950515199999,19.363198817000068 -99.180886682999983,19.362896512000077 -99.182553512999959,19.362486378000028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Nápoles</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">2100</SimpleData>
-		<SimpleData name="Tot_equipo">140</SimpleData>
-		<SimpleData name="I_Opera">2014/12/08</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Nápoles</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">2100</SimpleData>
+		<SimpleData name="tot_equipo">140</SimpleData>
+		<SimpleData name="i_opera">2014/12/08</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.92453370375</SimpleData>
-		<SimpleData name="cajon_km2">2141.62013993000</SimpleData>
+		<SimpleData name="cajon_km2">2141.62013993</SimpleData>
+		<SimpleData name="cartodb_id">10</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.17349614599999,19.390453399000023,0 -99.173620780999954,19.390188042000034,0 -99.179410025999971,19.38823663200003,0 -99.181318609999948,19.387537860000066,0 -99.181611296999961,19.387470416000042,0 -99.18137294,19.389150642000061,0 -99.181291854999984,19.390385695000077,0 -99.181288519999953,19.392037474000063,0 -99.181086250999954,19.393525100000033,0 -99.180832830999975,19.394293464000043,0 -99.180278137999949,19.39581565800006,0 -99.179873494999981,19.396659298000031,0 -99.179295426999943,19.397497325000074,0 -99.175760436999951,19.398333756000056,0 -99.17058377099994,19.399798429000043,0 -99.173457035999945,19.390749992000053,0 -99.17349614599999,19.390453399000023,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.17349614599999,19.390453399000023 -99.173620780999954,19.390188042000034 -99.179410025999957,19.38823663200003 -99.181318609999934,19.387537860000066 -99.181611296999947,19.387470416000042 -99.18137294,19.389150642000061 -99.181291854999984,19.390385695000077 -99.181288519999953,19.392037474000059 -99.181086250999954,19.393525100000033 -99.180832830999975,19.394293464000043 -99.180278137999949,19.395815658000057 -99.179873494999981,19.396659298000031 -99.179295426999943,19.397497325000074 -99.175760436999951,19.398333756000056 -99.170583770999926,19.399798429000043 -99.173457035999945,19.390749992000053 -99.17349614599999,19.390453399000023</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Ampliación Nápoles</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">600</SimpleData>
-		<SimpleData name="Tot_equipo">41</SimpleData>
-		<SimpleData name="I_Opera">2014/12/08</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Ampliación Nápoles</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">600</SimpleData>
+		<SimpleData name="tot_equipo">41</SimpleData>
+		<SimpleData name="i_opera">2014/12/08</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.26762930135</SimpleData>
-		<SimpleData name="cajon_km2">2395.10396199000</SimpleData>
+		<SimpleData name="cajon_km2">2395.10396199</SimpleData>
+		<SimpleData name="cartodb_id">11</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.1827508699999,19.38536692100007,0 -99.182171549999964,19.385950943000068,0 -99.181684663999988,19.387110727000049,0 -99.18157800299997,19.387473813000042,0 -99.181306952999989,19.387547774000041,0 -99.17361843599997,19.390205344000037,0 -99.174997508999979,19.386111095000047,0 -99.178427209999938,19.385572233000062,0 -99.180571373999953,19.385290631000032,0 -99.18163614599996,19.385272812000039,0 -99.1827508699999,19.38536692100007,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.182750869999893,19.38536692100007 -99.182171549999964,19.385950943000065 -99.181684663999974,19.387110727000049 -99.18157800299997,19.387473813000042 -99.181306952999975,19.387547774000037 -99.173618435999956,19.390205344000037 -99.174997508999979,19.386111095000047 -99.178427209999924,19.385572233000062 -99.180571373999939,19.385290631000032 -99.18163614599996,19.385272812000039 -99.182750869999893,19.38536692100007</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">San José Insurgentes</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">1515</SimpleData>
-		<SimpleData name="Tot_equipo">92</SimpleData>
-		<SimpleData name="I_Opera">2014/12/08</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">San José Insurgentes</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">1515</SimpleData>
+		<SimpleData name="tot_equipo">92</SimpleData>
+		<SimpleData name="i_opera">2014/12/08</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.65225811811</SimpleData>
-		<SimpleData name="cajon_km2">2322.70010587000</SimpleData>
+		<SimpleData name="cajon_km2">2322.70010587</SimpleData>
+		<SimpleData name="cartodb_id">12</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.189156372999946,19.363006687000052,0 -99.188032160999967,19.372472316000028,0 -99.181035949999966,19.367744017000064,0 -99.182701048999945,19.36245509500003,0 -99.183634565999967,19.361930525000048,0 -99.183998069999973,19.361817174000066,0 -99.185091199999988,19.361842094000053,0 -99.185315042999946,19.361777518000054,0 -99.185684747999971,19.361777516000075,0 -99.186819180999976,19.362283500000046,0 -99.188076597999952,19.36312001400006,0 -99.189156372999946,19.363006687000052,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.189156372999946,19.363006687000052 -99.188032160999967,19.372472316000028 -99.181035949999966,19.36774401700006 -99.182701048999945,19.36245509500003 -99.183634565999967,19.361930525000048 -99.183998069999973,19.361817174000066 -99.185091199999988,19.361842094000053 -99.185315042999946,19.361777518000054 -99.185684747999971,19.361777516000075 -99.186819180999976,19.362283500000046 -99.188076597999952,19.36312001400006 -99.189156372999946,19.363006687000052</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Poligono_ecoParq_enOperacion">
-		<SimpleData name="Nombre_pol">Insurgentes Mixcoac</SimpleData>
-		<SimpleData name="Delegacion">Benito Juárez</SimpleData>
-		<SimpleData name="Cve_mun">09014</SimpleData>
-		<SimpleData name="Tot_cajon">645</SimpleData>
-		<SimpleData name="Tot_equipo">40</SimpleData>
-		<SimpleData name="I_Opera">2014/12/08</SimpleData>
-		<SimpleData name="Lun">08:00-20:00</SimpleData>
-		<SimpleData name="Mar">08:00-20:00</SimpleData>
-		<SimpleData name="Mie">08:00-20:00</SimpleData>
-		<SimpleData name="Jue">08:00-20:00</SimpleData>
-		<SimpleData name="Vie">08:00-20:00</SimpleData>
-		<SimpleData name="Sab">N/A</SimpleData>
-		<SimpleData name="Dom">N/A</SimpleData>
-		<SimpleData name="Costo">2.00 MN c/ 15 min.</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="nombre_pol">Insurgentes Mixcoac</SimpleData>
+		<SimpleData name="delegacion">Benito Juárez</SimpleData>
+		<SimpleData name="cve_mun">09014</SimpleData>
+		<SimpleData name="tot_cajon">645</SimpleData>
+		<SimpleData name="tot_equipo">40</SimpleData>
+		<SimpleData name="i_opera">2014/12/08</SimpleData>
+		<SimpleData name="lun">08:00-20:00</SimpleData>
+		<SimpleData name="mar">08:00-20:00</SimpleData>
+		<SimpleData name="mie">08:00-20:00</SimpleData>
+		<SimpleData name="jue">08:00-20:00</SimpleData>
+		<SimpleData name="vie">08:00-20:00</SimpleData>
+		<SimpleData name="sab">N/A</SimpleData>
+		<SimpleData name="dom">N/A</SimpleData>
+		<SimpleData name="costo">2.00 MN c/ 15 min.</SimpleData>
 		<SimpleData name="sup_km2">0.50874195074</SimpleData>
-		<SimpleData name="cajon_km2">1267.83332703000</SimpleData>
+		<SimpleData name="cajon_km2">1267.83332703</SimpleData>
+		<SimpleData name="cartodb_id">13</SimpleData>
+		<SimpleData name="created_at">2015/03/07 05:40:00+00</SimpleData>
+		<SimpleData name="updated_at">2015/03/07 05:40:00+00</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.180932266999946,19.367945383000063,0 -99.187949928999956,19.372638613000049,0 -99.187581938999983,19.37645053600005,0 -99.178902085999937,19.37423409400003,0 -99.180932266999946,19.367945383000063,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.180932266999946,19.367945383000063 -99.187949928999956,19.372638613000049 -99.187581938999983,19.37645053600005 -99.178902085999937,19.37423409400003 -99.180932266999946,19.367945383000063</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
-  <PolygonSymbolizer>
-   <Fill>
-      <CssParameter name="fill">#0000FF</CssParameter>
-   </Fill>
-</PolygonSymbolizer>
 </Folder>
 </Document></kml>
