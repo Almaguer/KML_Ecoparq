@@ -201,7 +201,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.181487599999969,19.380566359000056 -99.178877022999984,19.381955806000065 -99.176010177999942,19.382891276000066 -99.176955971999973,19.380100413000036 -99.18200345799994,19.378457702000048 -99.181487599999969,19.380566359000056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
