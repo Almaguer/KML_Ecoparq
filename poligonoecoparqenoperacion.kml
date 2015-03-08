@@ -145,7 +145,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.169094466999979,19.403782556000085 -99.170558407999977,19.401029367000039 -99.171226981750152,19.403639380846272 -99.173268705751354,19.404139579480109 -99.177110657622848,19.405498809791411 -99.179833523088647,19.406629522457433 -99.179274389583469,19.406917008163621 -99.178517349999936,19.406969404000073 -99.176785194999965,19.408245312000084 -99.175580731999943,19.409795308000092 -99.174049794999974,19.411525694000055 -99.172159723999982,19.413361712000061 -99.172101182999924,19.413795809000099 -99.172208384999976,19.414602405000043 -99.172171464999948,19.41522935900003 -99.171948587999964,19.415852943000054 -99.175002474999985,19.418167922000084 -99.17661495399993,19.420465403000037 -99.153757696999946,19.425744274000063 -99.153938097999969,19.422235976000028 -99.154259796999938,19.419375924000079 -99.164651193999958,19.417522896000051 -99.167030865999948,19.410347463000065 -99.168483130999945,19.405993928000068 -99.168657587999959,19.405439505000054 -99.168876340999972,19.404609847000081 -99.169094466999979,19.403782556000085</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -173,7 +173,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.186030465999977,19.351583578000064 -99.182574325999937,19.362366766000065 -99.181298211999945,19.362721461000074 -99.180622755999977,19.362761172000059 -99.180034207999896,19.362813270000093 -99.179503894999982,19.363103287000037 -99.177874297318539,19.364847730561866 -99.175509300508367,19.362607716473264 -99.175042093489608,19.362195342365535 -99.175286349791378,19.361241523727543 -99.175820149411479,19.359874601412059 -99.177573775984612,19.360048080320869 -99.178125153870909,19.357892821842075 -99.177196682999977,19.352517762000087 -99.177371274999956,19.352284954000044 -99.179990456999946,19.351997102000038 -99.182769255314028,19.351546685101749 -99.184190487739386,19.351632843936478 -99.183746909005478,19.351072714011579 -99.18590585167135,19.350685126345482 -99.186030465999977,19.351583578000064</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -201,7 +201,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.181487599999969,19.380566359000056 -99.178877022999984,19.381955806000065 -99.176010177999942,19.382891276000066 -99.176955971999973,19.380100413000036 -99.18200345799994,19.378457702000048 -99.181487599999969,19.380566359000056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -229,7 +229,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.176954740999975,19.380105797000056 -99.178896614999985,19.37423349200003 -99.181047827999976,19.374807683000029 -99.181655660999979,19.374970476000044 -99.182852274999945,19.375268036000023 -99.18263413399994,19.376199505000045 -99.182005518999972,19.378460923000034 -99.176954740999975,19.380105797000056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -257,7 +257,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.180838399999942,19.385189709000024 -99.174927559999958,19.386165821000109 -99.175940653999987,19.383071146000066 -99.179073212,19.381859175000063 -99.181490562999954,19.380652711000018 -99.181511047999948,19.380569004000058 -99.1846153655477,19.380907422715232 -99.182875570968434,19.38507482904318 -99.182171793999942,19.385206061000087 -99.180838399999942,19.385189709000024</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -285,7 +285,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.182553512999959,19.362486378000028 -99.180825635999952,19.367734753000036 -99.179806046999943,19.367219113000033 -99.177791405999969,19.365049874000022 -99.179111904999957,19.363881777000074 -99.179268301999954,19.363528162000023 -99.17950515199999,19.363198817000068 -99.180886682999983,19.362896512000077 -99.182553512999959,19.362486378000028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -313,7 +313,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.17349614599999,19.390453399000023 -99.173620780999954,19.390188042000034 -99.179410025999957,19.38823663200003 -99.181318609999934,19.387537860000066 -99.181611296999947,19.387470416000042 -99.18137294,19.389150642000061 -99.181291854999984,19.390385695000077 -99.181288519999953,19.392037474000059 -99.181086250999954,19.393525100000033 -99.180832830999975,19.394293464000043 -99.180278137999949,19.395815658000057 -99.179873494999981,19.396659298000031 -99.179295426999943,19.397497325000074 -99.175760436999951,19.398333756000056 -99.170583770999926,19.399798429000043 -99.173457035999945,19.390749992000053 -99.17349614599999,19.390453399000023</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -341,7 +341,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.182750869999893,19.38536692100007 -99.182171549999964,19.385950943000065 -99.181684663999974,19.387110727000049 -99.18157800299997,19.387473813000042 -99.181306952999975,19.387547774000037 -99.173618435999956,19.390205344000037 -99.174997508999979,19.386111095000047 -99.178427209999924,19.385572233000062 -99.180571373999939,19.385290631000032 -99.18163614599996,19.385272812000039 -99.182750869999893,19.38536692100007</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -369,7 +369,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.189156372999946,19.363006687000052 -99.188032160999967,19.372472316000028 -99.181035949999966,19.36774401700006 -99.182701048999945,19.36245509500003 -99.183634565999967,19.361930525000048 -99.183998069999973,19.361817174000066 -99.185091199999988,19.361842094000053 -99.185315042999946,19.361777518000054 -99.185684747999971,19.361777516000075 -99.186819180999976,19.362283500000046 -99.188076597999952,19.36312001400006 -99.189156372999946,19.363006687000052</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>7fff0000</color></LineStyle><PolyStyle><color>7fff0000</color><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
