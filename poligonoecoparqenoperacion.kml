@@ -33,7 +33,7 @@
 </Schema>
 <Folder><name>poligonoecoparqenoperacion</name>
   <Placemark>
-	<Style><LineStyle><color>ffffffff</color></LineStyle><PolyStyle><fill>1</fill><outline>0</outline></PolyStyle></Style>
+	<Style><PolyStyle><fill>1</fill><outline>0</outline></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
