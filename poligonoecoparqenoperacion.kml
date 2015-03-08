@@ -33,7 +33,7 @@
 </Schema>
 <Folder><name>poligonoecoparqenoperacion</name>
   <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
@@ -61,7 +61,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.183477855999968,19.437347910000028 -99.181191725999952,19.436944892000042 -99.172350146999975,19.432230978000064 -99.178047080999988,19.423894896000036 -99.183477855999968,19.437347910000028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
