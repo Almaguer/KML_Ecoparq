@@ -369,7 +369,7 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.189156372999946,19.363006687000052 -99.188032160999967,19.372472316000028 -99.181035949999966,19.36774401700006 -99.182701048999945,19.36245509500003 -99.183634565999967,19.361930525000048 -99.183998069999973,19.361817174000066 -99.185091199999988,19.361842094000053 -99.185315042999946,19.361777518000054 -99.185684747999971,19.361777516000075 -99.186819180999976,19.362283500000046 -99.188076597999952,19.36312001400006 -99.189156372999946,19.363006687000052</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>662D90</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>1</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#poligonoecoparqenoperacion">
 		<SimpleData name="tessellate">-1</SimpleData>
 		<SimpleData name="extrude">-1</SimpleData>
